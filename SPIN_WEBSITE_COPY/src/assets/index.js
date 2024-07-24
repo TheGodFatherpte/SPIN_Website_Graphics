@@ -18,7 +18,7 @@ import linkedin from "./linkedin.svg";
 import logo from "./logo.svg";
 import menu from "./menu.svg";
 import people01 from "./people01.png";
-import people02 from "./people02.png";
+import people02 from "./people02.svg";
 import people03 from "./people03.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
@@ -37,3 +37,4 @@ export {
   shield,
   star, twitter
 };
+

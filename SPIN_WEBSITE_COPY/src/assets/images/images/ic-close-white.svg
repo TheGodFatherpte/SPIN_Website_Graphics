@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="ic-close-white" transform="translate(-887 -541.125)">
+    <rect id="Rectangle_1205" data-name="Rectangle 1205" width="24" height="24" transform="translate(887.5 541.625)" fill="#2da0e3" stroke="#fff" stroke-width="1" opacity="0"/>
+    <g id="Group_7760" data-name="Group 7760" transform="translate(1 2)">
+      <path id="Union_55" data-name="Union 55" d="M2058.03,399.216l-5.469-5.47-5.47,5.47a.75.75,0,0,1-1.06-1.06l5.47-5.47-5.47-5.47a.75.75,0,0,1,1.06-1.06l5.47,5.469,5.47-5.47a.75.75,0,1,1,1.061,1.061l-5.47,5.47,5.47,5.47a.75.75,0,1,1-1.061,1.06Z" transform="translate(-1154.061 158.939)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

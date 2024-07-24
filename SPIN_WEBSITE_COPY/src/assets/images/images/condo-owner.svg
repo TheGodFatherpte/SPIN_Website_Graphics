@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Group_507" data-name="Group 507" transform="translate(-1450.125 -232.637)">
+    <rect id="Rectangle_1192" data-name="Rectangle 1192" width="48" height="48" transform="translate(1450.125 232.637)" fill="#fff" opacity="0"/>
+    <g id="Group_506" data-name="Group 506" transform="translate(1451.78 236.424)">
+      <g id="Group_505" data-name="Group 505" transform="translate(10.693 5.115)">
+        <g id="Group_495" data-name="Group 495">
+          <g id="Group_493" data-name="Group 493" transform="translate(0 0.071)">
+            <rect id="Rectangle_1193" data-name="Rectangle 1193" width="3.695" height="3.695" fill="#2699fb"/>
+          </g>
+          <g id="Group_494" data-name="Group 494" transform="translate(9.094)">
+            <rect id="Rectangle_1194" data-name="Rectangle 1194" width="3.695" height="3.695" fill="#2699fb"/>
+          </g>
+        </g>
+        <g id="Group_498" data-name="Group 498" transform="translate(0 8.81)">
+          <g id="Group_496" data-name="Group 496" transform="translate(0 0.071)">
+            <rect id="Rectangle_1195" data-name="Rectangle 1195" width="3.695" height="3.695" fill="#2699fb"/>
+          </g>
+          <g id="Group_497" data-name="Group 497" transform="translate(9.094)">
+            <rect id="Rectangle_1196" data-name="Rectangle 1196" width="3.695" height="3.695" fill="#2699fb"/>
+          </g>
+        </g>
+        <g id="Group_501" data-name="Group 501" transform="translate(0 17.62)">
+          <g id="Group_499" data-name="Group 499" transform="translate(0 0.071)">
+            <rect id="Rectangle_1197" data-name="Rectangle 1197" width="3.695" height="3.695" fill="#2699fb"/>
+          </g>
+          <g id="Group_500" data-name="Group 500" transform="translate(9.094)">
+            <rect id="Rectangle_1198" data-name="Rectangle 1198" width="3.695" height="3.695" fill="#2699fb"/>
+          </g>
+        </g>
+        <g id="Group_504" data-name="Group 504" transform="translate(0 26.43)">
+          <g id="Group_502" data-name="Group 502" transform="translate(0 0.071)">
+            <rect id="Rectangle_1199" data-name="Rectangle 1199" width="3.695" height="3.695" fill="#2699fb"/>
+          </g>
+          <g id="Group_503" data-name="Group 503" transform="translate(9.094)">
+            <rect id="Rectangle_1200" data-name="Rectangle 1200" width="3.695" height="3.695" fill="#2699fb"/>
+          </g>
+        </g>
+      </g>
+      <path id="Path_649" data-name="Path 649" d="M1501.274,279.511" transform="translate(-1460.599 -244.506)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Path_650" data-name="Path 650" d="M1496.211,276.431H1493.4v-2.519a.6.6,0,0,0-1.207,0v2.519h-9.308v-26.74l9.308,5.671v15.482a.6.6,0,1,0,1.207,0V255.023a.6.6,0,0,0-.29-.516l-10.226-6.23V237.816a.6.6,0,0,0-.6-.6H1456.14a.6.6,0,0,0-.6.6v7.068a.6.6,0,1,0,1.208,0V238.42h24.938v38.011h-24.938V250.809a.6.6,0,1,0-1.208,0v25.623h-2.806a.6.6,0,0,0,0,1.208h43.481a.6.6,0,0,0,0-1.208ZM1462.817,246.7h3.694a.6.6,0,0,0,.6-.6V242.4a.6.6,0,0,0-.6-.6h-3.694a.6.6,0,0,0-.6.6v3.694A.6.6,0,0,0,1462.817,246.7Zm.6-3.694h2.487v2.487h-2.487Zm7.886,11.83a.6.6,0,0,0,.6.6h3.7a.6.6,0,0,0,.6-.6v-3.694a.6.6,0,0,0-.6-.6h-3.7a.6.6,0,0,0-.6.6Zm1.208-3.091H1475v2.487h-2.487Zm-16.376-3.07a.6.6,0,0,0,.6-.6v-.314a.6.6,0,1,0-1.208,0v.314A.6.6,0,0,0,1456.14,248.673Zm6.075,23.851a.6.6,0,0,0,.6.6h3.694a.6.6,0,0,0,.6-.6v-3.694a.6.6,0,0,0-.6-.6h-3.694a.6.6,0,0,0-.6.6Zm1.207-3.09h2.487v2.487h-2.487Zm-1.207-14.529a.6.6,0,0,0,.6.6h3.694a.6.6,0,0,0,.6-.6v-3.7a.6.6,0,0,0-.6-.6h-3.694a.6.6,0,0,0-.6.6Zm1.207-3.091h2.487V254.3h-2.487Zm-1.207,11.9a.6.6,0,0,0,.6.6h3.694a.6.6,0,0,0,.6-.6V260.02a.6.6,0,0,0-.6-.6h-3.694a.6.6,0,0,0-.6.6Zm1.207-3.09h2.487v2.487h-2.487Zm26.4,4.142H1488.5v1.412h1.314Zm0-6.732H1488.5v1.412h1.314Zm-3.233,6.76h-1.314v1.412h1.314Zm0,3.367h-1.314v1.412h1.314Zm-1.314,4.755h1.314V271.5h-1.314Zm1.314-14.854h-1.314v1.412h1.314Zm-14.671-11.434h3.7a.6.6,0,0,0,.6-.6v-3.694a.6.6,0,0,0-.6-.6h-3.7a.6.6,0,0,0-.6.6v3.694A.6.6,0,0,0,1471.912,246.627Zm.6-3.694H1475v2.487h-2.487Zm14.067,18.495h-1.314v1.411h1.314Zm-15.276,11.025a.6.6,0,0,0,.6.6h3.7a.6.6,0,0,0,.6-.6v-3.694a.6.6,0,0,0-.6-.6h-3.7a.6.6,0,0,0-.6.6Zm1.208-3.09H1475v2.487h-2.487Zm-1.208-5.719a.6.6,0,0,0,.6.6h3.7a.6.6,0,0,0,.6-.6v-3.694a.6.6,0,0,0-.6-.6h-3.7a.6.6,0,0,0-.6.6Zm1.208-3.09H1475v2.487h-2.487Zm15.987,12.335h1.314v-1.412H1488.5Zm1.314-11.488H1488.5v1.412h1.314Zm0,6.732H1488.5v1.412h1.314Z" transform="translate(-1452.125 -237.213)" fill="#113d57"/>
+    </g>
+  </g>
+</svg>

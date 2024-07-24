@@ -13,3 +13,4 @@ import Stats from "./Stats";
 import Testimonials from "./Testimonials";
 
 export { Billing, Business, Button, CTA, CardDeal, Clients, FeedbackCard, Footer, GetStarted, Hero, Navbar, Stats, Testimonials };
+
