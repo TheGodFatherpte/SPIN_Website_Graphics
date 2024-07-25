@@ -25,6 +25,7 @@ const Hero = () => {
             A new <br className="sm:block
           hidden" /> {" "}
             <span className="text-gradient">SPIN
+            
             </span> {" "}
 
           </h1>
@@ -32,6 +33,7 @@ const Hero = () => {
             <GetStarted />
           </div>
         </div>
+        
         <h1 className=" font-poppins font-semibold 
           ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] 
           leading-[75px] w-full">
@@ -47,7 +49,7 @@ const Hero = () => {
       {/* Right Section */}
       <div id="form" className={` ${styles.paragraph} font-poppins mt-5 flex-1 max-w-4xl p-6 mx-auto
        rounded-md shadow-md shadow-gray-2000 dark:bg-gray-800 md:w-1/2 relative `}>
-        <h2 className="text-lg font-semibold text-gray-700 capitalize dark:text-blue-400">Get appointed with Taurus</h2>
+        <h2 className="text-lg font-semibold text-gray-700 capitalize dark:text-blue-400">Get appointed with SPIN</h2>
         <h3 className='text-lg font-shadow text-gray-700 capitalize dark:text-white'>Please complete the form below and
           one of our SPIN territoty managers will get in touch with you shortly.  </h3>
         <Form />

@@ -1,6 +1,5 @@
 import { card } from "../assets"
 import styles, { layout } from "../style"
-import Button from "./Button"
 const CardDeal = () => (
 
   <section className="">
@@ -8,11 +7,13 @@ const CardDeal = () => (
       <h2 className={styles.heading2}>
       Many benefits await <br className="sm:block hidden"/> for a SPIN appointed insurance agent.
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      {/* <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       We’re Always Adapting and We’re Committed to Our Agency Partners 
        
-      </p>
+      </p> 
       <Button styles="mt-10"/>
+
+      */}
     </div>
 
     <div className={layout.sectionImg}>
