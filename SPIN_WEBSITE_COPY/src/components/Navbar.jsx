@@ -7,6 +7,6 @@ const Navbar = () => (
       <img src={logo} alt = "SPIN" className="w-[124px] h-[50px]"/> 
     </nav>
     
-  )
+  )//prueba
 
 export default Navbar

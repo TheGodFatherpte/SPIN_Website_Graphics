@@ -33,13 +33,15 @@ const SurveyForm = ({ onSuccess }) => {
         return '';
     };
 
-    
+
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log("Sending data:");
         try {
-            const response = await axios.post('./api/submit-survey', formData);
+            console.log('DATA', formData);
+            const response = await axios.post('https://sheet.best/api/sheets/8f12cdd6-6c4b-4ad0-8fa1-4d00dbeec550', formData).then((response)=>{
+            console.log('response', response);
+            });
             if (response.data.message === 'Success') {
                 setFormData({
                     name: '',
@@ -51,14 +53,16 @@ const SurveyForm = ({ onSuccess }) => {
                     averageHO3: 0,
                     averageHO6: 0,
                     averageHO8: 0
-                    
+
                 });
                 onSuccess();
+                
+                
             } else {
-                console.error('Error al enviar el formulario:', response.data);
+                console.error('Error al enviar el formulario else:', response.data);
             }
         } catch (error) {
-            console.error('Error al enviar el formulario:', error);
+            console.error('Error al enviar el formulario catch:', error);
         }
     };
 
@@ -71,14 +75,14 @@ const SurveyForm = ({ onSuccess }) => {
                     <label className="text-gray-700 dark:text-gray-200 ">Agency Name*</label>
                     <input className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-800 
                     dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring " type="text" name="name" value={formData.name} onChange={handleChange} required />
-                    
-                </div> 
-                
+
+                </div>
+
             </div>
             <div className="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2col-span-1">
                 <div className="flex flex-col mb-4">
                     <label htmlFor="email" className=" text-gray-700 dark:text-gray-200 ">Email*</label>
-                    <input className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring " type="text" type="email" name="email" value={formData.email} onChange={handleChange} required />
+                    <input className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring " type="text" name="email" value={formData.email} onChange={handleChange} required />
                 </div>
             </div>
             <div className="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2col-span-1">

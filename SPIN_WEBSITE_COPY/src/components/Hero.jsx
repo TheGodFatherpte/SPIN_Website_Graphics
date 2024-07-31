@@ -1,10 +1,23 @@
+import React, { useState } from "react";
 import { people02 } from "../assets";
 import styles from "../style";
 import Form from "./Form";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
+  const [isModalVisible, setModalVisible] = useState(false);
+
+  const handleSuccess = () => {
+    setModalVisible(true);
+  };
+
+  const handleCloseModal = () => {
+    setModalVisible(false);
+  };
+
+  
   return (
+    
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       {/* Left Section */}
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
@@ -52,10 +65,12 @@ const Hero = () => {
         <h2 className="text-lg font-semibold text-gray-700 capitalize dark:text-blue-400">Get appointed with SPIN</h2>
         <h3 className='text-lg font-shadow text-gray-700 capitalize dark:text-white'>Please complete the form below and
           one of our SPIN territoty managers will get in touch with you shortly.  </h3>
-        <Form />
+        <Form onSuccess={handleSuccess} />
       </div>
-
+      
     </section>
+    
+    
   );
 }
 
