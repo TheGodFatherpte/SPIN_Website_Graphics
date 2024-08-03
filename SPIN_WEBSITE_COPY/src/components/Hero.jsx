@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-row
+        <div id ="spin" className="flex flex-row
       justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold 
           ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
@@ -47,7 +47,7 @@ const Hero = () => {
           </div>
         </div>
         
-        <h1 className=" font-poppins font-semibold 
+        <h1 id ="Insurance" className=" font-poppins font-semibold 
           ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] 
           leading-[75px] w-full">
           Insurance.
