@@ -5,3 +5,5 @@ Node.js
 React
 Tailwind CSS
 Vercel
+
+Survey Master is deployed on Vercel. You can easily deploy your own version by linking the repository to your Vercel account and following the deployment steps provided by Vercel.
