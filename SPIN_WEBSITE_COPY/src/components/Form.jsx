@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { useState } from 'react';
+import Button from './Button';
 
 const SurveyForm = ({ onSuccess }) => {
     const [formData, setFormData] = useState({
@@ -39,8 +40,8 @@ const SurveyForm = ({ onSuccess }) => {
         e.preventDefault();
         try {
             console.log('DATA', formData);
-            const response = await axios.post('https://sheet.best/api/sheets/8f12cdd6-6c4b-4ad0-8fa1-4d00dbeec550', formData).then((response)=>{
-            console.log('response', response);
+            const response = await axios.post('https://sheet.best/api/sheets/8f12cdd6-6c4b-4ad0-8fa1-4d00dbeec550', formData).then((response) => {
+                console.log('response', response);
             });
             if (response.data.message === 'Success') {
                 setFormData({
@@ -56,8 +57,8 @@ const SurveyForm = ({ onSuccess }) => {
 
                 });
                 onSuccess();
-                
-                
+
+
             } else {
                 console.error('Error al enviar el formulario else:', response.data);
             }
@@ -70,15 +71,15 @@ const SurveyForm = ({ onSuccess }) => {
         <form onSubmit={handleSubmit} >
 
 
-            <div className="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2col-span-1">
+         <div className="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2col-span-1">
                 <div className="flex flex-col mb-4">
                     <label className="text-gray-700 dark:text-gray-200 ">Agency Name*</label>
                     <input className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-800 
                     dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring " type="text" name="name" value={formData.name} onChange={handleChange} required />
-
                 </div>
+            </div> 
 
-            </div>
+        
             <div className="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2col-span-1">
                 <div className="flex flex-col mb-4">
                     <label htmlFor="email" className=" text-gray-700 dark:text-gray-200 ">Email*</label>
@@ -102,13 +103,6 @@ const SurveyForm = ({ onSuccess }) => {
                         onChange={handleChange}
                         onBlur={(e) => setFormData({ ...formData, totalPremium: formatCurrency(e.target.value) })}
                     />
-                </div>
-            </div>
-            <div className="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2col-span-1">
-                <div className="flex flex-col mb-4">
-                    <label htmlFor="callir " className="text-gray-700 dark:text-gray-200 ">description</label>
-                    <input name= "callir" className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" type="tel" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} />
-                        
                 </div>
             </div>
             <div className="col-span-1 mb-4">
@@ -208,8 +202,8 @@ const SurveyForm = ({ onSuccess }) => {
                 </div>
             </div>
             <div className="col-span-1 lg:col-span-2 flex justify-center mt-8">
-                <button type="submit" className="px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600 animate-pulse">Get Appointed now!</button>
-            </div>
+                <Button type="submit" />
+                   </div>
         </form>
     );
 };

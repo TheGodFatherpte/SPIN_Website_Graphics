@@ -360,3 +360,139 @@ opacity: 1;
 .ref::first-letter{
   font-size: 12px;
 }
+.input-group .input{
+  border:none;
+  border-bottom: 2px solid #ccc;
+  padding: 5px 0;
+  background-color: transparent;
+  outline: none;
+}
+.label{
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ccc;
+  transition: 0.3s;
+  pointer-events: none
+}
+.input:focus~ .label, .input:valid~ .label{
+  top: -20px;
+  color: #333;
+  font-size: 12px;
+}
+.underline{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #ccc;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+.input:focus ~ .underline{
+  transform: scaleX(1);
+}
+/* //button */
+.container{
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+button{
+  position: relative;
+  font-size: 1rem;
+  border: none;
+  padding: 18px 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #444;
+    transition: all 0.5s ease;
+
+}
+button:hover {
+  letter-spacing: 5px;
+  color: #fff;
+  background-color: #fff;
+  animation: box 3s infinite;
+  margin: auto;
+}
+
+#form:hover {
+  letter-spacing: 1px;
+  animation: box 1s ;
+  border-radius: 1%;
+}
+button::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+}
+button span {
+  position: relative;
+  z-index: 1;
+}
+button i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+button i::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 80%;
+  width: 10px;
+  height: 2px;
+  border: 2px solid #fff;
+  background-color: #272822;
+  transition: all 0.3s ease;
+}
+button:hover i::before {
+  left: 20%;
+  width: 15px;
+  animation: move 3s infinite;
+}
+
+button i::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 20%;
+  width: 10px;
+  height: 2px;
+  border: 2px solid #fff;
+  background-color: #272822;
+  transition: all 0.3s ease;
+}
+button:hover i::after {
+  left: 80%;
+  width: 15px;
+  animation: move 3s infinite;
+}
+@keyframes move {
+  0% {
+      transform: translateX(0);
+  }
+  50% {
+      transform: translateX(5px);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+@keyframes box {
+  0% {
+      box-shadow: #27272c;
+  }
+  50% {
+      box-shadow: 0 0 25px #7debff;
+  }
+  100% {
+      box-shadow: #27272c;
+  }
+}
+
