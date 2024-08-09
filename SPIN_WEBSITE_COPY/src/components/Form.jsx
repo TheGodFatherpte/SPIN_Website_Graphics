@@ -104,6 +104,13 @@ const SurveyForm = ({ onSuccess }) => {
                     />
                 </div>
             </div>
+            <div className="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2col-span-1">
+                <div className="flex flex-col mb-4">
+                    <label htmlFor="callir " className="text-gray-700 dark:text-gray-200 ">description</label>
+                    <input name= "callir" className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" type="tel" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} />
+                        
+                </div>
+            </div>
             <div className="col-span-1 mb-4">
                 <div className="flex flex-col">
                     <label className="text-gray-700 dark:text-gray-200">What percentage of the premium is residential?</label>
